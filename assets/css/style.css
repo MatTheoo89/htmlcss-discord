@@ -67,7 +67,7 @@ header .button a{
   justify-content: center;
   align-items: center;
   height: 550px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   background-color: blue;
 }
@@ -80,6 +80,30 @@ header .button a{
   padding: 40px 0 20px;
   max-width: 550px;
 }
+
+.jumbotron .button{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 25px;
+}
+
+.jumbotron .button a{
+text-decoration: none;
+}
+
+.jumbotron .content .button .btn-white a{
+  color: #525558;
+}
+
+.jumbotron .button .btn-black{
+  background-color: black;
+}
+
+.jumbotron .button .btn-black a{
+  color: #FFFFFF;
+}
+
+
 
 
 /*MAIN*/
