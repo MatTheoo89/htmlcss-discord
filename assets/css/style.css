@@ -181,35 +181,77 @@ section.section-btn .cta .button  a{
 /*FOOTER*/
 
 footer{
+  color: #FFFFFF;
   background-color: rgb(32, 32, 32);
+}
+
+footer h3{
+  font-size: 25px;
+  color: #7289DA;
+}
+
+footer .col-social img{
+  height: 1rem;
+}
+
+footer .col-social .lingua{
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  font-size: .7rem;
+}
+
+footer .col-social .lingua span{
+    margin: 0 5px;
+  }
+
+
+footer .col-social .icon-social i{
+  padding: 5px 10px;
 }
 
 .footer-top{
   display: flex;
-  /*DEBUG*/
-  min-height: 300px;
-  background-color: yellow;
+  padding: 50px 0;
 }
 
 .footer-top .col-social{
+  display: flex;
+  flex-direction: column;
   width: calc(100% / 3);
-    /*DEBUG*/
-    min-height: 200px;
-    background-color: rgb(225, 0, 255);
 }
 
 .footer-top .col-menu{
   width: calc(100% / 6);
-    /*DEBUG*/
-    min-height: 200px;
-    background-color: rgb(255, 0, 34);
-    border: 1px solid black;
+}
+
+footer .col-menu .title-list{
+  color: #7289DA;
+  font-weight: 900;
+
+}
+
+footer .col-menu ul li{
+  list-style: none;
+  padding: 5px 0;
+  font-size: .8rem;
+  font-weight: 600;
 }
 
 .footer-bottom{
   display: flex;
   justify-content: space-between;
-  /*DEBUG*/
-  min-height: 200px;
-  background-color: rgb(21, 255, 0);
+  border-top: 1px solid #7289DA;
+  padding: 20px 0 40px;
+}
+
+footer .button a{
+  color: #FFFFFF;
+text-decoration: none;
+}
+
+footer .button.btn{
+  background-color: #7289DA;
+  padding: 5px 20px;
+  font-size: .8rem;
 }
