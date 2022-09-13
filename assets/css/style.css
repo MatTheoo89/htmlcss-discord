@@ -1,3 +1,9 @@
+/*DEBUG*/
+.debug{
+  background-color: rgba(255, 0, 0, .5);
+  border: 2px solid red;
+}
+
 *{
   margin: 0;
   padding: 0 ;
@@ -6,6 +12,14 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+} 
+
+h2{
+  font-size: 40px;
 }
 
 .container{
@@ -27,7 +41,7 @@ header{
   display: flex;
   align-items: center;
   height: 80px;
-  background-color: #3161E0;
+  background-color: #255EE9;
 }
 
 header .container{
@@ -54,7 +68,7 @@ header .menu ul li a{
 
 header .button a{
   font-size: .7rem;
-  color: #525558;
+  color: #23272A;
   text-decoration: none;
 }
 
@@ -62,7 +76,7 @@ header .button a{
 
 .jumbotron{
   background-image: url('../img/jumbo.png');
-  background-size: cover;
+  background-size:cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,33 +122,60 @@ text-decoration: none;
 
 /*MAIN*/
 
+section{
+  color: #23272A;
+}
+
 section.bg-grey{
-  background-color: rgb(175, 175, 175);
+  background-color: #F6F6F6;
 }
 
 section .container{
   display: flex;
-  min-height: 500px;
-  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
 }
 
 section .container .image{
   width: 60%;
-  /* DEBUG */
-  background-color: aqua;
 }
 
 
 section .container .text{
   width: 40%;
-    /* DEBUG */
-  background-color: yellowgreen;
+  padding: 40px;
 }
+
+section .container h2{
+    padding-bottom: 30px;
+  }
+
 
 section.section-btn .container{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 80px 0;
+}
+
+section.section-btn .cta .button .btn{
+  text-align: center;
+  width: 80%;
+  background-color: #8EA1E1;
+}
+
+section h3{
+  padding-bottom: 30px;
+}
+
+section.section-btn .cta .button .btn{
+  padding: 10px 0;
+}
+
+section.section-btn .cta .button  a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /*FOOTER*/
