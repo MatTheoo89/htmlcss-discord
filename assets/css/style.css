@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.btn{
+  border-radius: 50px;
+  padding: 3px 15px;
+  background-color: #FFFFFF;
 }
 
 /*HEADER*/
@@ -17,12 +27,14 @@ header{
   display: flex;
   align-items: center;
   height: 80px;
-  background-color: aqua;
+  background-color: #3161E0;
 }
 
 header .container{
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+
 }
 
 header .menu ul{
@@ -31,18 +43,26 @@ header .menu ul{
 }
 
 header .menu ul li{
-  color: white;
+  font-weight: 500;
+  color: #FFFFFF;
   padding: 15px;
 }
 
 header .menu ul li a{
   text-decoration: none;
-  color: white;
+}
+
+header .button a{
+  font-size: .7rem;
+  color: #525558;
+  text-decoration: none;
 }
 
 /*JUMBO*/
 
 .jumbotron{
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,9 +76,9 @@ header .menu ul li a{
   max-width: 800px;
 }
 
-/* DEBUG */
-.debug{
-  background-color: rgba(255, 0, 0, .5);
+.jumbotron .content p{
+  padding: 40px 0 20px;
+  max-width: 550px;
 }
 
 
