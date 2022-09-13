@@ -22,6 +22,15 @@ h2{
   font-size: 40px;
 }
 
+a{
+  color: #FFFFFF;
+}
+
+a:hover{
+  color: #7289DA;
+  text-decoration: underline;
+}
+
 .container{
   width: 90%;
   max-width: 1200px;
@@ -128,6 +137,7 @@ section{
 
 section.bg-grey{
   background-color: #F6F6F6;
+  position: relative;
 }
 
 section .container{
@@ -254,4 +264,28 @@ footer .button.btn{
   background-color: #7289DA;
   padding: 5px 20px;
   font-size: .8rem;
+}
+
+
+/* TEXT WAVE */
+
+.custom-shape-divider-top-1663070419 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1663070419 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-top-1663070419 .shape-fill {
+  fill: #F6F6F6;
 }
